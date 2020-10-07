@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Latihan3 {
+    public static void main(String[]  args){
+        int tinggibadan;
+        
+        //Buat Scanner
+        Scanner inp = new Scanner(System.in);
+        
+        //Ambil Jenis Kelamin
+        System.out.print("Masukkan Jenis Kelamin  : ");
+        String jeniskelamin  = inp.next();
+        
+        //Ambil Tinggi Badan
+        System.out.print("Masukkan Tinggi Badan  : ");
+        tinggibadan = inp.nextInt();
+        
+        //Print
+          if (jeniskelamin=="Lakilaki"){
+             if (tinggibadan>170){
+                System.out.println("Selamat Anda Lulus");
+            } else{
+                System.out.println("Anda Gagal");
+            } 
+      }   else if (jeniskelamin=="Perempuan"){
+             } if (tinggibadan>160){
+                 System.out.println("Selamat Anda Lulus");
+             } else{
+                 System.out.println("Anda Gagal");
+                
+             }  
+    }
+}
