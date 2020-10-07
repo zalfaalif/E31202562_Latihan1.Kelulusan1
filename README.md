@@ -1,1 +1,46 @@
 # E31202562_Latihan1.Kelulusan1
+* To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author acer
+ */
+public class kelulusan1 {
+
+
+    public static void main(String[]  args){
+        int nilai;
+        
+        // Buat Scanner
+        Scanner inp = new Scanner(System.in);
+        
+        // Ambil Nama
+        System.out.print("Masukkan Nama Anda  : " );
+        String nama = inp.next();
+        
+        // Ambil NIM
+        System.out.print("Masukkan NIM  : " );
+        String nim = inp.next();
+        
+        // Ambil Nilai
+        System.out.print("Masukkan Nilai  : " );
+        nilai = inp.nextInt();
+        
+        // Print
+        if (nilai>55){
+            System.out.println("Anda Lulus");
+         } 
+        else {
+            System.out.println("Anda tidak Lulus");
+            
+        }
+        }
+
+    
+        }
+    
